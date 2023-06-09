@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meals/Screens/filters_screen.dart';
 import 'package:meals/Screens/tabs_screen.dart';
 import './Screens/meal_detail.dart';
-import './Screens/categories_screen.dart';
 import './Screens/catergory_meals_screen.dart';
-import './Screens/tabs_screen.dart';
 import './dummy_data.dart';
 import './Model/meal.dart';
 
@@ -78,8 +76,8 @@ class _MyAppState extends State<MyApp> {
       title: 'Meals App',
       theme: ThemeData(
         // is not restarted.
-        primarySwatch: Colors.pink,
-        accentColor: Colors.amber,
+        primarySwatch: Colors.red,
+        accentColor: Colors.yellow,
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'OpenSans',
         textTheme: ThemeData.light().textTheme.copyWith(
