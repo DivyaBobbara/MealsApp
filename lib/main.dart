@@ -76,7 +76,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Meals App',
       theme: ThemeData(
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
         primaryColor: Colors.yellow,
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'OpenSans',
